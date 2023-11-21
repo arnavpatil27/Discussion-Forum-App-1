@@ -1,6 +1,7 @@
 // index.js
 
-const express = require('express');
+const express = require('express');   //const ek keyword hai jo humein allow karta hai ki hum ek variable 
+                                      //ko ek baar set karke fir uski value ko change na karein,
 const http = require('http');
 const socketIo = require('socket.io');
 const cors = require('cors');
